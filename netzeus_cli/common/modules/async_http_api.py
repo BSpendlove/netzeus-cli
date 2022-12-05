@@ -16,6 +16,7 @@ class AsyncHTTPAPI:
         headers:        Dictionary of any headers to inject in all requests
         bearer_token:   Bearer Token if API uses an API token
         timeout:        Time to wait until raising an error if no response
+        verify_ssl:     Verify SSL
     """
 
     def __init__(

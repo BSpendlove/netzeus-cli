@@ -11,6 +11,7 @@ setup(
         "python-dotenv==0.19.2",
         "loguru==0.6.0",
         "requests==2.28.1",
+        "pydantic==1.10.2",
     ],
     entry_points="""
         [console_scripts]
